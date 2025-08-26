@@ -1,24 +1,24 @@
 {
   "teamA": [
     {
-      "name": "Alex Johnson",
-      "position": "Forward",
-      "image": "player_placeholder.png"
+      "name": "Finlay Kerr (7)",
+      "position": "Attacker",
+      "image": "https://ibb.co/7JBdv7x4"
     },
     {
-      "name": "Ben Carter",
-      "position": "Midfielder",
-      "image": "player_placeholder.png"
-    },
-    {
-      "name": "Chris Davis",
+      "name": "Seth Lee (6)",
       "position": "Defender",
-      "image": "player_placeholder.png"
+      "image": "https://ibb.co/fzk15jvL
     },
     {
-      "name": "David Evans",
-      "position": "Goalkeeper",
-      "image": "player_placeholder.png"
+      "name": "Jayden Stevens (22)",
+      "position": "Attacker",
+      "image": "https://ibb.co/vRhmTkL"
+    },
+    {
+      "name": "Ewan Whittaker (47)",
+      "position": "midfilder",
+      "image": "https://ibb.co/Kxrmf6Zy"
     }
   ],
   "teamB": [
