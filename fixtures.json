@@ -1,0 +1,52 @@
+{
+  "upcoming": [
+    {
+      "date": "25 DEC 2024",
+      "home_team": "Fawley FC",
+      "away_team": "Rival Team",
+      "time": "15:00",
+      "venue": "Home Ground"
+    },
+    {
+      "date": "01 JAN 2025",
+      "home_team": "Fawley FC",
+      "away_team": "New Year FC",
+      "time": "15:00",
+      "venue": "Home Ground"
+    }
+  ],
+  "results": [
+    {
+      "date": "18 DEC 2024",
+      "home_team": "Fawley FC",
+      "away_team": "Old Boys FC",
+      "score": "3 - 1",
+      "result": "win",
+      "venue": "Home Ground"
+    },
+    {
+      "date": "11 DEC 2024",
+      "home_team": "City Wanderers",
+      "away_team": "Fawley FC",
+      "score": "2 - 2",
+      "result": "draw",
+      "venue": "Away Ground"
+    },
+    {
+      "date": "04 DEC 2024",
+      "home_team": "Fawley FC",
+      "away_team": "United Rovers",
+      "score": "0 - 1",
+      "result": "loss",
+      "venue": "Home Ground"
+    },
+    {
+      "date": "12  Jan 2026",
+      "home_team": "Fawley FC",
+      "away_team": "...",
+      "score": "3-2",
+      "result": "win",
+      "venue": "Home"
+    }
+  ]
+}

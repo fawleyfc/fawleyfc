@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fawley FC - Admin Panel</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="admin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@600;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body class="admin-page">
+    <header class="admin-header">
+        <h1>Fawley FC Admin Panel</h1>
+        <p>Edit the site's content using the user-friendly interface below.</p>
+    </header>
+
+    <main class="admin-main-content">
+        <section class="admin-section" id="team-admin-section">
+            <h2>Manage Team Data</h2>
+            <p class="section-description">Add, edit, or remove players from Team A and Team B. Remember to click "Save All Team Changes" when done.</p>
+            
+            <h3 class="editor-heading">Team A Players</h3>
+            <div id="teamA-items-container" class="admin-item-grid">
+                <!-- Team A members will be loaded here by script.js -->
+                <p>Loading Team A members...</p>
+            </div>
+            <button class="btn btn-primary add-new-btn" data-target="teamA">Add New Player to Team A</button>
+
+            <h3 class="editor-heading">Team B Players</h3>
+            <div id="teamB-items-container" class="admin-item-grid">
+                <!-- Team B members will be loaded here by script.js -->
+                <p>Loading Team B members...</p>
+            </div>
+            <button class="btn btn-primary add-new-btn" data-target="teamB">Add New Player to Team B</button>
+            
+            <div class="save-output-area">
+                <button class="btn btn-primary save-all-data-btn" data-target="team">Save All Team Changes</button>
+                <div class="output-container" id="teamOutputContainer">
+                    <h3>Copy/Download Updated <code>data/team.json</code></h3>
+                    <pre><code id="teamOutput"></code></pre>
+                    <button class="btn btn-secondary copy-btn" data-target="team">Copy to Clipboard</button>
+                    <button class="btn btn-secondary download-btn" data-target="team">Download JSON</button>
+                    <p class="instructions"><strong>Instructions:</strong> Copy the code above or download the file. Then, open <code>data/team.json</code> in your project and replace its *entire content* with this new code.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="admin-section" id="news-admin-section">
+            <h2>Manage News Data</h2>
+            <p class="section-description">Add, edit, or remove news articles. Remember to click "Save All News Changes" when done.</p>
+            
+            <div id="news-items-container" class="admin-item-grid">
+                <!-- News articles will be loaded here by script.js -->
+                <p>Loading news articles...</p>
+            </div>
+            
+            <button class="btn btn-primary add-new-btn" data-target="news">Add New Article</button>
+            
+            <div class="save-output-area">
+                <button class="btn btn-primary save-all-data-btn" data-target="news">Save All News Changes</button>
+                <div class="output-container" id="newsOutputContainer">
+                    <h3>Copy/Download Updated <code>data/news.json</code></h3>
+                    <pre><code id="newsOutput"></code></pre>
+                    <button class="btn btn-secondary copy-btn" data-target="news">Copy to Clipboard</button>
+                    <button class="btn btn-secondary download-btn" data-target="news">Download JSON</button>
+                    <p class="instructions"><strong>Instructions:</strong> Copy the code above or download the file. Then, open <code>data/news.json</code> in your project and replace its *entire content* with this new code.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="admin-section" id="fixtures-admin-section">
+            <h2>Manage Fixtures Data</h2>
+            <p class="section-description">Add, edit, or remove upcoming matches and past results. Remember to click "Save All Fixtures Changes" when done.</p>
+            
+            <h3 class="editor-heading">Upcoming Matches</h3>
+            <div id="upcoming-items-container" class="admin-item-grid">
+                <!-- Upcoming matches will be loaded here by script.js -->
+                <p>Loading upcoming matches...</p>
+            </div>
+            <button class="btn btn-primary add-new-btn" data-target="upcoming">Add New Upcoming Match</button>
+
+            <h3 class="editor-heading">Past Results</h3>
+            <div id="results-items-container" class="admin-item-grid">
+                <!-- Past results will be loaded here by script.js -->
+                <p>Loading past results...</p>
+            </div>
+            <button class="btn btn-primary add-new-btn" data-target="result">Add New Past Result</button>
+            
+            <div class="save-output-area">
+                <button class="btn btn-primary save-all-data-btn" data-target="fixtures">Save All Fixtures Changes</button>
+                <div class="output-container" id="fixturesOutputContainer">
+                    <h3>Copy/Download Updated <code>data/fixtures.json</code></h3>
+                    <pre><code id="fixturesOutput"></code></pre>
+                    <button class="btn btn-secondary copy-btn" data-target="fixtures">Copy to Clipboard</button>
+                    <button class="btn btn-secondary download-btn" data-target="fixtures">Download JSON</button>
+                    <p class="instructions"><strong>Instructions:</strong> Copy the code above or download the file. Then, open <code>data/fixtures.json</code> in your project and replace its *entire content* with this new code.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

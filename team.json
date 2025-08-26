@@ -1,0 +1,42 @@
+{
+  "teamA": [
+    {
+      "name": "Alex Johnson",
+      "position": "Forward",
+      "image": "player_placeholder.png"
+    },
+    {
+      "name": "Ben Carter",
+      "position": "Midfielder",
+      "image": "player_placeholder.png"
+    },
+    {
+      "name": "Chris Davis",
+      "position": "Defender",
+      "image": "player_placeholder.png"
+    },
+    {
+      "name": "David Evans",
+      "position": "Goalkeeper",
+      "image": "player_placeholder.png"
+    }
+  ],
+  "teamB": [
+    {
+      "name": "Ethan Foster",
+      "position": "Midfielder",
+      "image": "player_placeholder.png"
+    },
+    {
+      "name": "Frank Green",
+      "position": "Defender",
+      "image": "player_placeholder.png"
+    },
+    {
+      "name": "George Hill",
+      "position": "Forward",
+      "image": "player_placeholder.png"
+    }
+  ]
+}
+
