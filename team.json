@@ -1,22 +1,22 @@
 {
   "teamA": [
     {
-      "name": "Finlay Kerr 7",
+      "name": "Finlay Kerr <br> 7",
       "position": "Attacker",
       "image": "player_placeholder.png"
     },
     {
-      "name": "Seth Lee 6",
+      "name": "Seth Lee <br> 6",
       "position": "Defender",
       "image": "player_placeholder.png"
     },
     {
-      "name": "Jayden Stevens 22",
+      "name": "Jayden Stevens <br>22",
       "position": "Attacker",
       "image": "player_placeholder.png"
     },
     {
-      "name": "Ewan Whittaker 47",
+      "name": "Ewan Whittaker <br> 47",
       "position": "midfilder",
       "image": "player_placeholder.png"
     }
